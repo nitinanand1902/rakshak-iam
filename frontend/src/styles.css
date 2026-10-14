@@ -1,0 +1,15 @@
+html {
+  background: #f6f8fb;
+}
+
+body {
+  min-width: 320px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.recharts-wrapper {
+  font-family: Inter, Arial, sans-serif;
+}

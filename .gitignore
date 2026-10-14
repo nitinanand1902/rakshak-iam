@@ -1,0 +1,59 @@
+# ================================
+# Maven
+# ================================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# ================================
+# H2 Database (local only)
+# ================================
+data/
+*.mv.db
+*.trace.db
+
+# ================================
+# SECURITY — Never commit secrets
+# ================================
+# SAML keystore (contains private key)
+src/main/resources/security/
+
+# Local credentials override — create this file locally with real secrets
+application-local.properties
+application-local.yml
+*-local.properties
+
+# ================================
+# IDE
+# ================================
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+
+# ================================
+# OS
+# ================================
+.DS_Store
+Thumbs.db
+*.swp
+
+# ================================
+# Frontend
+# ================================
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+
+# ================================
+# Logs
+# ================================
+*.log
+logs/
